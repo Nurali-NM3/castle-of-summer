@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container2 {
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+/* headercelector */
+
+.baise {
+    border: 1px solid #D1A954;
+    padding: 3px;
+}
+
+a {
+    color: #000;
+}
+
+.nav a:hover {
+    color: #D1A954;
+    transition: 0.6s;
+}
+
+
+
+
+/* headercelector */
+
+/* section hero */
+.card {
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.card:hover .card-body {
+    bottom: -10px;
+    transition: 0.6s;
+}
+
+.card-body {
+    position: absolute;
+    text-align: center;
+    background: #D1A954E5;
+    bottom: -190px;
+
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.card-text {
+    color: #fff;
+}
+
+.card-border {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 32px;
+}
+
+.btn-of-card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.wrap-castle {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -250px;
+}
+
+.btn-video {
+    position: absolute;
+    top: 235px;
+}
+
+/* section hero */
+
+/* about restoran */
+
+.quare {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.about-restoran p,
+.restoran-greeting {
+    font-size: 14px;
+}
+
+.restoran-greeting p {
+    padding-left: 40px;
+}
+
+.wrap-restoran {
+    background-color: #E5E5E5;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.about-restoran h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    padding-top: 30px;
+}
+
+.castle-img {
+    padding-left: 115px;
+}
+
+/* * about restoran */
+
+/* picture of restoran  */
+.parent {
+    display: grid;
+    grid-template-columns: 225px 446px 365px minmax(200px, 500px);
+    grid-template-rows: 300px;
+    gap: 20px;
+    width: 100%;
+    grid-auto-flow: dense;
+    margin-top: 120px;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: 370px 250px 400px;
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+    margin-top: 20px;
+    grid-auto-flow: dense;
+    margin-bottom: 100px;
+}
+
+.box1 {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    gap: 10px 0;
+
+}
+
+.box1 img,
+h3 {
+    margin-top: 15px;
+    justify-self: center;
+    font-weight: 300;
+}
+
+.box2 {
+    background-image: url(../assets/Rectangle\ 2.1.jpg);
+
+
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    background-image: url(../assets/Rectangle\ 2.2.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+.box4 {
+    background-image: url(../assets/Rectangle\ 2.4.jpg);
+    grid-column: span 2;
+    grid-row: span 2;
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    background-image: url(../assets/Rectangle\ 2.3.jpg);
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    background-image: url(../assets/Rectangle\ 2.5.jpg);
+    background-repeat: no-repeat;
+}
+
+/* picture of restoran  */
+
+.download {
+    background-image: url(../assets/Rectangle\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: cover;
+}
+
+.btn-download {
+    padding: 153px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 20px 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-right: 45px;
+}
+
+.batton {
+    background-color: #fff;
+    padding: 20px 45px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 45px;
+}
+
+.active-hover:hover {
+    background-color: #616161;
+    color: #fff;
+}
+
+/* contacts */
+.wrap-contact{
+    padding: 100px;
+}
+.contact {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 135%;
+}
+
+.line {
+    max-width: 540px;
+}
+
+input {
+    max-width: 540px;
+    padding: 10px 330px 0 0;
+    border: none;
+}
+.contact-title{
+    font-weight: 300;
+font-size: 36px;
+line-height: 145%;
+}
+
+textarea {
+    width: 540px;
+    border: 0.5px solid #D0D0D0;
+    height: 160px;
+    margin-bottom: 40px;
+}
+
+.submit {
+    padding: 10px 35px;
+    color: #FFFFFF;
+    background: #D1A954;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+}
+/* contacts */
+
+.footer-img{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-image: url(../assets/Rectangle\ 2.1.jpg);
+    background-image: url(../assets/Rectangle\ 2.2.jpg);
+    gap: 320px;
+}
+.footer-img img{
+    width: 100%;
+    max-width: fit-content;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+.footer-text p{
+    margin: 0;
+}
