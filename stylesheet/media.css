@@ -1,0 +1,157 @@
+@media(max-width:1030px){
+    .container{
+        max-width: 980px;
+    }
+    .contaier2{
+        max-width: 980px;
+    }
+    .nav{
+        display: none;
+    }
+    .col-6{
+        width: 100%;
+
+    }
+    .video img{
+        width: 100%;
+    }
+    .col-4
+    {
+        width: 100%;
+
+    }
+    .quare{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .restoran-greeting{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 70px;
+        text-align: center;
+    }
+    .castle-img{
+        padding: 0;
+    }
+    .box {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .textp{
+        text-align: center;
+        padding: 0 90px;
+    }
+    .parent {
+        grid-template-columns: 456px 1px;
+        grid-template-rows: repeat(3,300px);
+
+    justify-content: center;
+
+    }
+
+    .parent2 {
+        grid-template-columns: 456px 1px;
+        grid-template-rows: 300px 300px 300px 300px;
+        justify-content: center;
+
+    }
+    .box1{
+        grid-column: span 2;
+    }
+    .btn-download{
+        padding: 70px;
+    }
+    .box2{
+        grid-column: span 2;
+        background-size: cover;
+        object-fit: contain;
+    }
+    .box3 {
+        background-size: cover;
+        object-fit: contain;
+        grid-column: span 2;
+    }
+    .box4{
+        grid-column: span 3;
+    }
+    .box5{
+        grid-column: span 3;
+    }
+    .box6{
+        grid-column: span 3;
+    }
+}
+@media(max-width:700px) {
+    .container {
+        max-width: 620px;
+    }
+
+    .contaier2 {
+        max-width: 620px;
+    }
+    .btn-download{
+        padding: 70px 0;
+    }
+    .btn-instoll{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .btn-instoll button{
+        margin: 0;
+    }
+    .video{
+        margin-bottom: -170px;
+    }
+}
+@media(max-width:520px){
+    container {
+        max-width: 580px;
+    }
+    container2 {
+        max-width: 580px;
+    }
+    .parent {
+        grid-template-columns: 305px 1px;
+        grid-template-rows: repeat(3,300px);
+
+        justify-content: center;
+
+    }
+
+    .parent2 {
+        grid-template-columns: 286px 1px;
+        grid-template-rows: 99px 300px 300px 300px;
+
+    }
+    textarea{
+        width: 100%;
+    }
+    .line :has svg{
+        width: 300px;
+    }
+    .wrap-contact{
+        padding: 35px;
+    }
+    .contact-title{
+        font-size: 30px;
+    }
+    .video{
+        margin-bottom: -150px;
+    }
+    .restoran-greeting{
+        padding: 0;
+    }
+    .textp{
+        padding: 0;
+    }
+
+}

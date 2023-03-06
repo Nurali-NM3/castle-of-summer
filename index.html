@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href=".\stylesheet\media.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
             <div class="header d-flex p-2 align-items-center justify-content-around">
                 <img src="./assets/logo.png" alt="logo">
 
-                <nav class='nav gap-4 text-decoration-none align-items-center'>
+                <nav class='nav gap-3 text-decoration-none align-items-center'>
                     <a class='baise text-decoration-none  ' href="#">ГЛАВНАЯ </a>
                     <a class='sofit text-decoration-none' href="#">SOFIT EVENT HOUSE </a>
                     <a class=' text-decoration-none' href="#">МЕРОПРИЯТИЯ </a>
@@ -43,7 +44,7 @@
     <div class="container">
         <div class="row m-md-3">
 
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-sm-6 col-md-3">
                 <div class="card">
                     <img src="./assets/Rectangle 2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -57,7 +58,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-sm-6 col-md-3">
                 <div class="card">
                     <img src="./assets/Rectangle 2 (1).jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -71,7 +72,7 @@
                 </div>
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4 col-sm-6 col-md-3">
                 <div class="card">
                     <img src="./assets/Rectangle 2 (2).jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -124,25 +125,14 @@
 
 
         </div>
-        <div class="video">
-            <img src="./assets/Rectangle 2.png" alt="">
-            <div class="btn-video">
-                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_8_4)">
-                        <path
-                            d="M40 0C17.9089 0 0 17.9086 0 40C0 62.0914 17.9089 80 40 80C62.0911 80 80 62.0914 80 40C80 17.9086 62.0911 0 40 0ZM53.825 42.1203L33.825 54.6203C33.4203 54.873 32.9602 55 32.5 55C32.0831 55 31.6656 54.8963 31.2878 54.6863C30.4931 54.2456 30 53.4094 30 52.5V27.5C30 26.5906 30.4931 25.7544 31.2878 25.3137C32.0825 24.8706 33.0542 24.8975 33.825 25.3797L53.825 37.8797C54.5556 38.3375 55 39.1383 55 40C55 40.8617 54.5556 41.6627 53.825 42.1203Z"
-                            fill="#D1A954" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_8_4">
-                            <rect width="80" height="80" fill="white" />
-                        </clipPath>
-                    </defs>
-                </svg>
+
+            <div class="contaier2">
+                <div class="video">
+                    <img  src="./assets/video.png" alt="">
+
+                </div>
             </div>
 
-
-        </div>
 
 
     </div>
@@ -166,14 +156,16 @@
                     <div class="container text-center">
                         <div class="row about-restoran ">
                             <div class="col-6 justify-content-sm-start">
-                                <div class="quare  pt-3">
-                                    <img class='object-fit-contain' src="./assets/descr1.png" alt="img">
-                                    <h3>площадка</h3>
+                                <div class="box">
+                                    <div class="quare  pt-3">
+                                        <img class='object-fit-contain' src="./assets/descr1.png" alt="img">
+                                        <h3>площадка</h3>
+                                    </div>
+                                    <p class='textp text-sm-start lh-3'>Сочетание классических интерьеров и современных
+                                        технических возможностей выгодно
+                                        отличают Летний Дворец от большинства других исторических площадок города.
+                                    </p>
                                 </div>
-                                <p class='text-sm-start lh-3'>Сочетание классических интерьеров и современных
-                                    технических возможностей выгодно
-                                    отличают Летний Дворец от большинства других исторических площадок города.
-                                </p>
                             </div>
                             <div class="col-6 justify-content-sm-start">
 
@@ -181,7 +173,7 @@
                                     <img class='object-fit-contain' src="./assets/descr2.png" alt="">
                                     <h3>интерьеры</h3>
                                 </div>
-                                <p class='text-sm-start'>Изысканное внутреннее убранство Летнего Дворца — тонко
+                                <p class='textp text-sm-start'>Изысканное внутреннее убранство Летнего Дворца — тонко
                                     выполненная стилизация с
                                     использованием традиционных технологий и материалов — мрамора, бронзового литья.
                                 </p>
@@ -192,7 +184,7 @@
                                     <img class='object-fit-contain' src="./assets/descr3.png" alt="">
                                     <h3>технологии</h3>
                                 </div>
-                                <p class='text-sm-start'>Возможности «Летнего Дворца» практически безграничны с точки
+                                <p class='textp text-sm-start'>Возможности «Летнего Дворца» практически безграничны с точки
                                     зрения проведения
                                     мероприятий самого разного формата и масштаба.
                                 </p>
@@ -203,7 +195,7 @@
                                     <img class='object-fit-contain' src="./assets/descr4.png" alt="">
                                     <h3>оборудование</h3>
                                 </div>
-                                <p class='text-sm-start'>Установлен комплект самого современного звукового оборудования,
+                                <p class=' textp text-sm-start'>Установлен комплект самого современного звукового оборудования,
                                     который приятно удивит даже
                                     знатока качественного звука.
                                 </p>
@@ -234,7 +226,9 @@
                 <img src="./assets/descr1.png" alt="">
                 <p>летний дворец</p>
             </div>
-            <div class="box2"></div>
+            <div class="box2">
+
+            </div>
             <div class="box3"></div>
 
         </div>
@@ -248,7 +242,7 @@
         <div class="container2">
             <div class="btn-download">
                 <h2>узнайте о нас больше</h2>
-                <div>
+                <div class="btn-instoll">
                     <button type="button" class="btn  active-hover" data-bs-toggle="button">Скачать план</button>
                     <button type="button" class="btn batton active-hover" data-bs-toggle="button">Скачать
                         презентацию</button>
@@ -331,18 +325,18 @@
             <div class="col-6 ">
                 <input type="text"  placeholder="Ваше имя" >
                 <div class="line">
-                    <svg width="540" height="1" viewBox="0 0 540 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="100%" height="1" viewBox="0 0 540 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="2.18557e-08" y1="0.75" x2="540" y2="0.750047" stroke="#D0D0D0" stroke-width="0.5"/>
                         </svg>
                 </div>
                 <input type="text"  placeholder="Ваше email" >
                 <div class="line">
-                    <svg width="540" height="1" viewBox="0 0 540 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="100%" height="1" viewBox="0 0 540 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="2.18557e-08" y1="0.75" x2="540" y2="0.750047" stroke="#D0D0D0" stroke-width="0.5"/>
                         </svg>
                 </div>
                 <textarea name="commet" placeholder='Сообщение' id="" cols="30" rows="10"></textarea>
-                <button type="button" class="submit">отправить</button>
+                <button  type="button" class="submit">отправить</button>
             </div>
 
         </div>
