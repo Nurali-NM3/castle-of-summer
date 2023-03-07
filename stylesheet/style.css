@@ -38,7 +38,9 @@ a {
     color: #D1A954;
     transition: 0.6s;
 }
-
+.nav2{
+    display: none;
+}
 
 
 
@@ -329,13 +331,12 @@ background-color: #D0D0D0 ;
     display: flex;
     height: 300px;
     width: 100%;
-    background-image: url(../assets/Rectangle\ 2.1.jpg);
-    background-image: url(../assets/Rectangle\ 2.2.jpg);
-    gap: 320px;
+    
+    
 }
 .footer-img img{
-    width: 100%;
-    max-width: fit-content;
+    width: 16.66%;
+   
 }
 .footer-text{
     display: flex;
